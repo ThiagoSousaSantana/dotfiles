@@ -1,0 +1,7 @@
+htop
+lazygit
+neovim
+tilix
+wget
+git
+zsh
