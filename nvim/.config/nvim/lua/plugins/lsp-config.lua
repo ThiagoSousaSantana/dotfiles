@@ -28,6 +28,13 @@ return {
       })
       lspconfig.gopls.setup({
         capabilities = capabilities,
+        cmd = {"gopls"},
+        filetypes = { "go", "gomod", "gowork", "gotmpl" },
+        settings = {
+          gopls = {
+            
+          }
+        }
       })
 
       vim.keymap.set({ "n", "v" }, "<leader>ca", vim.lsp.buf.code_action, {})
