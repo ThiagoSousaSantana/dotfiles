@@ -119,13 +119,13 @@ tooltip label{
 }
 
 #pulseaudio {
-    color: #89b4fa;
+    color: #cdd6f4;
     border-left: 0px;
     border-right: 0px;
 }
 
 #pulseaudio.microphone {
-    color: #cba6f7;
+    color: #cdd6f4;
     border-left: 0px;
     border-right: 0px;
 }
